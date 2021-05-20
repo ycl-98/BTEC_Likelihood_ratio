@@ -9,7 +9,7 @@ The code was developed based on the following dependencies:
 5. gzip
 6. SciPy
 
-#Code Summary
+**Code Summary**
 This code first unzips the input Chromosme_SpliceAI_GTEx.txt.gz file and divides the data set into 8 subsets:  3 real acceptor data sets with different GTEx_read thresholds, 1 non acceptor data set where GTEx_acc_read=0, 3 real donor data sets with different GTEx_read thresholds, and 1 non donor data set where GTEx_don_read=0. 
 
 The code then normalizes the density of the 8 subsets with Gaussian Kernel Density Estimation and calculuates the Likelihood ratios and produce the plots. 
